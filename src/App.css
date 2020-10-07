@@ -1,0 +1,46 @@
+body{
+ background-color: lightslategrey;
+}
+
+.App{
+    margin: 40px auto;
+    background-color: teal;
+    min-height: 500px;
+    width: 400px;
+    color: gainsboro;
+    border: 1px solid;
+}
+
+.input{
+    background-color: dodgerblue;
+    height: 35px;
+    width: 230px;
+    border: 0px;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 0 20px;
+    color: floralwhite;
+}
+.input::placeholder{
+    color: gainsboro;
+}
+.input:focus{
+    outline: none;
+}
+.AddButton{
+    height: 35px;
+    width: 70px;
+    background-color: dodgerblue;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+}
+.AddButton:focus{
+    outline: none;
+    
+}
+.AddButton:hover{
+    background-color: green;
+}
